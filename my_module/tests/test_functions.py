@@ -1,5 +1,6 @@
-from my_module.functions import complement, transcribe, translate
+from functions import complement, transcribe, translate
 import sys
+sys.path.append('../')
 
 test_template_strand = 'ATCTGACC'
 test_dna_strand = 'TTCCATA'
